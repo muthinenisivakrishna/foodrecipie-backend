@@ -16,6 +16,6 @@ mongoose.connect(
   "mongodb+srv://foodRecipeUser:lWvjTcEmDIf0nAUt@foodrecipecluster.zfoy5fw.mongodb.net/foodRecipeApp?retryWrites=true&w=majority"
 );
 
-app.listen(9001, (req, res) => {
+app.listen(3001, (req, res) => {
   console.log("SERVER STARTED!!!");
 });
